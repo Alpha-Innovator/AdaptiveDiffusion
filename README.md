@@ -28,10 +28,10 @@ AdaptiveDiffusion offers three core components:
 
 ## Installation
 
-Please follow the [installation](https://github.com/huggingface/diffusers/blob/main/README.md) to complete the installation. If the evaluation is required, `clean-fid` and `calculate_fvd` should be installed for images and videos, respectively.
+Please follow the [installation](https://github.com/huggingface/diffusers/blob/main/README.md) to complete the installation. If the evaluation is required, `clean-fid` should be installed for images and videos.
 
 ```
-pip install git+https://github.com/zhijian-liu/torchprofile datasets torchmetrics dominate clean-fid calculate_fvd
+pip install git+https://github.com/zhijian-liu/torchprofile datasets torchmetrics dominate clean-fid
 ```
 
 ## Quickstart
